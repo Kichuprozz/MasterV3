@@ -13,7 +13,7 @@ from info import ADMINS, AUTH_CHANNEL, AUTH_USERS, CUSTOM_FILE_CAPTION, AUTH_GRO
     SINGLE_BUTTON, SPELL_CHECK_REPLY, IMDB_TEMPLATE,PICS, LOG_CHANNEL, SUPPORT_CHAT, MELCOW_NEW_USERS, CHANNELS, BATCH_FILE_CAPTION, PROTECT_CONTENT
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery, InputMediaPhoto
 from pyrogram import Client, filters, enums
-from utils import get_size, temp, get_settings
+from utils import get_size, temp, get_settings, is_subscribed, save_group_settings
 from pyrogram.errors import ChatAdminRequired
 from pyrogram.errors import FloodWait, UserIsBlocked, MessageNotModified, PeerIdInvalid
 from utils import get_size, is_subscribed, get_poster, search_gagala, temp, get_settings, save_group_settings
