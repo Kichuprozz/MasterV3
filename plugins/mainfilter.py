@@ -1444,7 +1444,7 @@ async def start(client, message):
             InlineKeyboardButton('ℹ️ ʜᴇʟᴩ', callback_data='help2'),
             InlineKeyboardButton('😊 ᴀʙᴏᴜᴛ', callback_data='about')
         ]]
-        reply_markup = InlineKeyboardMarkup(buttons
+        reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_chat_action(enums.ChatAction.TYPING)
         m=await message.reply_sticker("CAACAgUAAxkBAAIFd2SQVaJIUtgWBcs-eiebCASh2vCMAAInAQACyJRkFOI9YoCRRKaaHgQ")
         await asyncio.sleep(1)
