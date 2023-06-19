@@ -4,6 +4,11 @@ import re
 import ast
 import math
 import random
+import os
+import logging
+import random
+import json
+import base64
 from pyrogram.errors.exceptions.bad_request_400 import MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty, MessageTooLong, PeerIdInvalid
 from Script import script
 import pyrogram
